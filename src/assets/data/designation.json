@@ -1,0 +1,57 @@
+[
+    {
+        "department": "Engineering ",
+        "designations": [
+            {
+                "id": "ds01",
+                "name": "Junior Software Engineer"
+            },
+            {
+                "id": "ds02",
+                "name": "Software Engineer"
+            },
+            {
+                "id": "ds03",
+                "name": "Senior Software Engineer"
+            }
+        ]
+    },
+    {
+        "department": "Human Resources",
+        "designations": [
+            {
+                "id": "ds04",
+                "name": "HR Director"
+            },
+            {
+                "id": "ds05",
+                "name": "Payroll Director"
+            },
+            {
+                "id": "ds06",
+                "name": "Training Director"
+            },
+            {
+                "id": "ds07",
+                "name": "Talent Acquisition Director"
+            }
+        ]
+    },
+    {
+        "department": "Sales ",
+        "designations": [
+            {
+                "id": "ds08",
+                "name": "Collection agent"
+            },
+            {
+                "id": "ds09",
+                "name": "Sales consultant"
+            },
+            {
+                "id": "ds10",
+                "name": "Account executie."
+            }
+        ]
+    }
+]

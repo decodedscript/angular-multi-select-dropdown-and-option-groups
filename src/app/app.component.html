@@ -1,0 +1,28 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Angular Multi Select Dropdown and Option Groups Example</span>
+  <span></span>
+</mat-toolbar>
+<section class="body-container">
+  <mat-form-field appearance="fill" class="select-element ">
+    <mat-label>Departments</mat-label>
+    <mat-select multiple>
+      <mat-option *ngFor="let department of departments$ | async; index as i" [value]="department.id">
+        {{department.name}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill" class="select-element ">
+    <mat-label>Designations</mat-label>
+    <mat-select> 
+      <mat-optgroup *ngFor="let group  of designations$ | async; index as i" [label]="group.department"
+        [disabled]="group.disabled">
+        <mat-option *ngFor="let designation of group.designations" [value]="designation.name">
+          {{designation.name}}
+        </mat-option>
+      </mat-optgroup>
+    </mat-select>
+  </mat-form-field>
+</section>
+

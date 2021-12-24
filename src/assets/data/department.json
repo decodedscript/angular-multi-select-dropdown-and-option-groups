@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Human Resource",
+        "id": "DEP01"
+    },
+    {
+        "name": "Engineering",
+        "id": "DEP02"
+    },
+    {
+        "name": "Business Development",
+        "id": "DEP03"
+    },
+    {
+        "name": "Research and development",
+        "id": "DEP04"
+    },
+    {
+        "name": "Product development",
+        "id": "DEP05"
+    },
+    {
+        "name": "Security and transport",
+        "id": "DEP06"
+    }
+]
